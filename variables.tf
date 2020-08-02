@@ -216,7 +216,6 @@ variable "volumes" {
       labels        = map(string)
       scope         = string
     }))
-))
   }))
   description = "Task volume definitions as list of configuration objects"
   default     = []
